@@ -26,7 +26,7 @@ public class AuthController {
     private final SignupEventPublisher signupEventPublisher;
     private final VerificationTokenService verificationTokenService;
         
-
+     
     public AuthController(UserService userService, SignupEventPublisher signupEventPublisher, VerificationTokenService verificationTokenService) { 
         this.userService = userService; 
         this.signupEventPublisher = signupEventPublisher;
